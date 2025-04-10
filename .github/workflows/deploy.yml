@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'index.html'
+      - '/gh-deployment-workflow/index.html'
 
 jobs:
   deploy:
