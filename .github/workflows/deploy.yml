@@ -23,7 +23,7 @@ jobs:
     - name: Set up Pages
       uses: actions/upload-pages-artifact@v3
       with:
-        path: .
+        path: '.'
 
     - name: Deploy to GitHub Pages
       uses: actions/deploy-pages@v2
